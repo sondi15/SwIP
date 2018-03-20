@@ -1,0 +1,14 @@
+C:\Users\sonderst\source\repos\PIT\PIT\bin\Debug\config.xml
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\PIT.Form1.resources
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\SwIP.csproj.GenerateResource.Cache
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\SwIP.csproj.CoreCompileInputs.cache
+C:\Users\sonderst\source\repos\PIT\PIT\bin\Debug\SwIP.exe.config
+C:\Users\sonderst\source\repos\PIT\PIT\bin\Debug\SwIP.exe
+C:\Users\sonderst\source\repos\PIT\PIT\bin\Debug\SwIP.pdb
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\SwIP.Properties.Resources.resources
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\SwIP.exe
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\SwIP.pdb
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\PIT.Form1.de-AT.resources
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\de-AT\SwIP.resources.dll
+C:\Users\sonderst\source\repos\PIT\PIT\bin\Debug\de-AT\SwIP.resources.dll
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\SwIP.csprojResolveAssemblyReference.cache

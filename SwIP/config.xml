@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<configs>
+  <ITEM id="1" name="IP Config1" ip="" sn="" gw=""/>
+  <ITEM id="2" name="IP Config2" ip="" sn="" gw=""/>
+  <ITEM id="3" name="IP Config3" ip="" sn="" gw=""/>
+  <ITEM id="4" name="IP Config4" ip="" sn="" gw=""/>
+  <ITEM id="5" name="IP Config5" ip="" sn="" gw=""/>
+  <ITEM id="6" name="IP Config6" ip="" sn="" gw=""/>
+  <ITEM id="7" name="IP Config7" ip="" sn="" gw=""/>
+  <ITEM id="8" name="IP Config8" ip="" sn="" gw=""/>
+  <ITEM id="dns" dns1="10.0.0.1" dns2=""/>
+</configs>

@@ -1,0 +1,2468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbDNS1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gBox4.Name" xml:space="preserve">
+    <value>gBox4</value>
+  </data>
+  <data name="&gt;&gt;gBDNS.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbSNconf1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gBox7.Text" xml:space="preserve">
+    <value>IP Config 7</value>
+  </data>
+  <data name="tbSNconf3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;rbConfig1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label20.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbEdit8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnChange.Text" xml:space="preserve">
+    <value>Anwenden</value>
+  </data>
+  <data name="&gt;&gt;rbConfig8.Name" xml:space="preserve">
+    <value>rbConfig8</value>
+  </data>
+  <data name="rbConfig2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="cbDHCP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>798, 50</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>GW</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="rbConfig4.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="tbIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>706, 175</value>
+  </data>
+  <data name="gBDNS.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="label18.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf6.Name" xml:space="preserve">
+    <value>tbIPconf6</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbConfig6.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="tbDNS1.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnChange.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf3.Name" xml:space="preserve">
+    <value>tbIPconf3</value>
+  </data>
+  <data name="gBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 175</value>
+  </data>
+  <data name="tbSNconf2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 65</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="gBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 481</value>
+  </data>
+  <data name="tbGWconf1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>gBox2</value>
+  </data>
+  <data name="gBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="cbDHCP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;rbConfig6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbGWconf3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 147</value>
+  </data>
+  <data name="tbEdit4.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf7.Parent" xml:space="preserve">
+    <value>gBox7</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnReload.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf2.Parent" xml:space="preserve">
+    <value>gBox2</value>
+  </data>
+  <data name="&gt;&gt;rbConfig7.Name" xml:space="preserve">
+    <value>rbConfig7</value>
+  </data>
+  <data name="tbGWconf8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 93</value>
+  </data>
+  <data name="label21.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gBox4.Text" xml:space="preserve">
+    <value>IP Config 4</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="tbGWconf4.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf8.Parent" xml:space="preserve">
+    <value>gBox8</value>
+  </data>
+  <data name="tbEdit4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;rbConfig2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbSNconf2.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf6.Parent" xml:space="preserve">
+    <value>gBox6</value>
+  </data>
+  <data name="&gt;&gt;cbDHCP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf6.Name" xml:space="preserve">
+    <value>tbGWconf6</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;rbConfig4.Name" xml:space="preserve">
+    <value>rbConfig4</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="tbIPconf1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 37</value>
+  </data>
+  <data name="tbSNconf8.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tbIPconf3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 37</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf2.Name" xml:space="preserve">
+    <value>tbGWconf2</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbSNconf6.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tbEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 0</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 37</value>
+  </data>
+  <data name="&gt;&gt;tbEdit3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 22</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf1.Parent" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 93</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cbNetworkCard.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbIPconf4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 37</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;rbConfig1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbNetworkCard.Name" xml:space="preserve">
+    <value>cbNetworkCard</value>
+  </data>
+  <data name="&gt;&gt;tbEdit2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbSNconf4.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tbEdit8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 22</value>
+  </data>
+  <data name="tbSNconf8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;gBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbIPconf3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="tbGWconf2.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;btnReload.Name" xml:space="preserve">
+    <value>btnReload</value>
+  </data>
+  <data name="&gt;&gt;gBox2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="tbIPconf2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;gBox8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>SN</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbGWconf6.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="gBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 147</value>
+  </data>
+  <data name="cBDNS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 24</value>
+  </data>
+  <data name="cbDHCP.Text" xml:space="preserve">
+    <value>DHCP aktivieren</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="tbDNS1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;tbEdit7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tbGWconf8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf8.Parent" xml:space="preserve">
+    <value>gBox8</value>
+  </data>
+  <data name="tbIPconf1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf8.Parent" xml:space="preserve">
+    <value>gBox8</value>
+  </data>
+  <data name="tbIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 609</value>
+  </data>
+  <data name="tbSNconf8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 65</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 93</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf4.Parent" xml:space="preserve">
+    <value>gBox4</value>
+  </data>
+  <data name="gBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 147</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>SN</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label26.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;cBDNS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbConfig7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbEdit8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbSNconf6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbDNS2.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="tbIPconf7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;gBox3.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 147</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf1.Parent" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbEdit2.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>DNS1</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;tbEdit5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbIPconf6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf4.Name" xml:space="preserve">
+    <value>tbGWconf4</value>
+  </data>
+  <data name="&gt;&gt;gBox5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tbDNS2.Name" xml:space="preserve">
+    <value>tbDNS2</value>
+  </data>
+  <data name="gBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 147</value>
+  </data>
+  <data name="rbConfig6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 328</value>
+  </data>
+  <data name="tbGWconf6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 93</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 65</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbEdit4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbIPconf2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>gBox5</value>
+  </data>
+  <data name="&gt;&gt;rbConfig3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="gBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 147</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbIPconf5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf2.Name" xml:space="preserve">
+    <value>tbIPconf2</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;gBox7.Name" xml:space="preserve">
+    <value>gBox7</value>
+  </data>
+  <data name="cBDNS.Text" xml:space="preserve">
+    <value>DNS benutzen</value>
+  </data>
+  <data name="&gt;&gt;btnChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 49</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>gBox5</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEdit8.Parent" xml:space="preserve">
+    <value>gBox8</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 37</value>
+  </data>
+  <data name="btnChange.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="gBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 147</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="tbEdit5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 0</value>
+  </data>
+  <data name="tbSNconf5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbConfig4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf4.Parent" xml:space="preserve">
+    <value>gBox4</value>
+  </data>
+  <data name="&gt;&gt;rbConfig7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbEdit7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 0</value>
+  </data>
+  <data name="gBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 147</value>
+  </data>
+  <data name="cbDHCP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 24</value>
+  </data>
+  <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tbSNconf7.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbConfig5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>gBox8</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>SN</value>
+  </data>
+  <data name="&gt;&gt;gBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label23.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="cbNetworkCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>499, 26</value>
+  </data>
+  <data name="&gt;&gt;tbIP.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbEdit3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbEdit7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 22</value>
+  </data>
+  <data name="tbEdit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 0</value>
+  </data>
+  <data name="rbConfig2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 93</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>gBox8</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>gBox3</value>
+  </data>
+  <data name="&gt;&gt;cbDHCP.Name" xml:space="preserve">
+    <value>cbDHCP</value>
+  </data>
+  <data name="rbConfig2.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="gBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 175</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>GW</value>
+  </data>
+  <data name="gBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 481</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 22</value>
+  </data>
+  <data name="tbGWconf5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;rbConfig8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;rbConfig4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbConfig2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>gBox4</value>
+  </data>
+  <data name="tbGWconf7.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tbSNconf6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 65</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>gBox3</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 93</value>
+  </data>
+  <data name="&gt;&gt;btnReload.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rbConfig2.Name" xml:space="preserve">
+    <value>rbConfig2</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>SN</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;gBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbSNconf4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;rbConfig6.Name" xml:space="preserve">
+    <value>rbConfig6</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>gBox5</value>
+  </data>
+  <data name="&gt;&gt;rbConfig5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Name" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;tbEdit3.Parent" xml:space="preserve">
+    <value>gBox3</value>
+  </data>
+  <data name="&gt;&gt;tbEdit8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbSNconf3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="tbIPconf8.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>gBox6</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>GW</value>
+  </data>
+  <data name="tbIPconf5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 37</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;tbEdit2.Parent" xml:space="preserve">
+    <value>gBox2</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="rbConfig5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 175</value>
+  </data>
+  <data name="cBDNS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 50</value>
+  </data>
+  <data name="rbConfig7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 481</value>
+  </data>
+  <data name="tbEdit8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 0</value>
+  </data>
+  <data name="tbGWconf4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="tbSNconf2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="tbEdit6.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>gBox7</value>
+  </data>
+  <data name="tbIPconf3.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbEdit1.Parent" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="gBDNS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 86</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 22</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf5.Parent" xml:space="preserve">
+    <value>gBox5</value>
+  </data>
+  <data name="cbDHCP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>GW</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf5.Name" xml:space="preserve">
+    <value>tbSNconf5</value>
+  </data>
+  <data name="tbEdit5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 22</value>
+  </data>
+  <data name="tbSNconf1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 37</value>
+  </data>
+  <data name="tbGWconf3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>gBDNS</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf1.Name" xml:space="preserve">
+    <value>tbSNconf1</value>
+  </data>
+  <data name="tbIPconf7.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbEdit7.Parent" xml:space="preserve">
+    <value>gBox7</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="tbDNS2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 22</value>
+  </data>
+  <data name="tbGWconf2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>SN</value>
+  </data>
+  <data name="&gt;&gt;rbConfig1.Name" xml:space="preserve">
+    <value>rbConfig1</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>gBox4</value>
+  </data>
+  <data name="tbSNconf7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>DNS2</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gBDNS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 80</value>
+  </data>
+  <data name="tbGWconf1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;rbConfig5.Name" xml:space="preserve">
+    <value>rbConfig5</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 22</value>
+  </data>
+  <data name="&gt;&gt;tbEdit1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 65</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>gBox4</value>
+  </data>
+  <data name="&gt;&gt;rbConfig4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 65</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tbSNconf4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbEdit6.Parent" xml:space="preserve">
+    <value>gBox6</value>
+  </data>
+  <data name="gBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 328</value>
+  </data>
+  <data name="label16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf8.Name" xml:space="preserve">
+    <value>tbIPconf8</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbIPconf1.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbEdit3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>gBox6</value>
+  </data>
+  <data name="&gt;&gt;tbEdit5.Parent" xml:space="preserve">
+    <value>gBox5</value>
+  </data>
+  <data name="tbIPconf6.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tbGWconf7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf4.Name" xml:space="preserve">
+    <value>tbSNconf4</value>
+  </data>
+  <data name="cBDNS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbEdit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 22</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="tbSNconf5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="&gt;&gt;tbEdit2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="tbEdit6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 0</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 65</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>gBox7</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="tbGWconf1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 93</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>gBox6</value>
+  </data>
+  <data name="tbGWconf3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 93</value>
+  </data>
+  <data name="tbGWconf6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf6.Parent" xml:space="preserve">
+    <value>gBox6</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf2.Parent" xml:space="preserve">
+    <value>gBox2</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbGWconf4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEdit1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf5.Parent" xml:space="preserve">
+    <value>gBox5</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>gBox8</value>
+  </data>
+  <data name="tbIPconf4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 37</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf4.Name" xml:space="preserve">
+    <value>tbIPconf4</value>
+  </data>
+  <data name="rbConfig8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 639</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 65</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 22</value>
+  </data>
+  <data name="tbGWconf5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tbEdit7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnChange.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>gBDNS</value>
+  </data>
+  <data name="&gt;&gt;gBDNS.Name" xml:space="preserve">
+    <value>gBDNS</value>
+  </data>
+  <data name="tbEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 22</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf7.Parent" xml:space="preserve">
+    <value>gBox7</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="rbConfig1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbNetworkCard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf4.Parent" xml:space="preserve">
+    <value>gBox4</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbEdit7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf7.Name" xml:space="preserve">
+    <value>tbIPconf7</value>
+  </data>
+  <data name="&gt;&gt;tbEdit6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;gBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Netzwerkkarte</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="label14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;rbConfig3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbIPconf1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbConfig6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbIPconf3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEdit5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnChange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnChange.Name" xml:space="preserve">
+    <value>btnChange</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDNS2.Parent" xml:space="preserve">
+    <value>gBDNS</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf5.Name" xml:space="preserve">
+    <value>tbGWconf5</value>
+  </data>
+  <data name="tbSNconf4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 65</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf6.Parent" xml:space="preserve">
+    <value>gBox6</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="tbSNconf2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbEdit5.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;tbEdit4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbSNconf1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 65</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf1.Name" xml:space="preserve">
+    <value>tbGWconf1</value>
+  </data>
+  <data name="tbSNconf3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 65</value>
+  </data>
+  <data name="btnChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>798, 11</value>
+  </data>
+  <data name="tbSNconf3.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbConfig3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbConfig5.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;gBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;cbNetworkCard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbConfig8.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;gBox3.Name" xml:space="preserve">
+    <value>gBox3</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>gBox7</value>
+  </data>
+  <data name="rbConfig7.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="tbSNconf7.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="&gt;&gt;cbNetworkCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tbGWconf8.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>GW</value>
+  </data>
+  <data name="tbGWconf2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbConfig1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf1.Parent" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="tbIPconf2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 37</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 22</value>
+  </data>
+  <data name="&gt;&gt;gBox5.Name" xml:space="preserve">
+    <value>gBox5</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 22</value>
+  </data>
+  <data name="label27.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbGWconf3.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="rbConfig1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 175</value>
+  </data>
+  <data name="label24.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf7.Name" xml:space="preserve">
+    <value>tbSNconf7</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>SN</value>
+  </data>
+  <data name="tbSNconf1.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cBDNS.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf3.Name" xml:space="preserve">
+    <value>tbSNconf3</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="tbGWconf7.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="rbConfig3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 481</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;rbConfig3.Name" xml:space="preserve">
+    <value>rbConfig3</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 37</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gBox8.Name" xml:space="preserve">
+    <value>gBox8</value>
+  </data>
+  <data name="&gt;&gt;cBDNS.Name" xml:space="preserve">
+    <value>cBDNS</value>
+  </data>
+  <data name="tbDNS2.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label22.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbEdit4.Name" xml:space="preserve">
+    <value>tbEdit4</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>SN</value>
+  </data>
+  <data name="tbSNconf8.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 37</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEdit3.Name" xml:space="preserve">
+    <value>tbEdit3</value>
+  </data>
+  <data name="&gt;&gt;tbEdit4.Parent" xml:space="preserve">
+    <value>gBox4</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 22</value>
+  </data>
+  <data name="label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tbGWconf1.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="btnReload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>736, 11</value>
+  </data>
+  <data name="gBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 639</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>gBox2</value>
+  </data>
+  <data name="tbEdit2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 328</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbEdit3.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="tbDNS2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 49</value>
+  </data>
+  <data name="cbDHCP.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="tbGWconf5.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cbDHCP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="tbIP.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf7.Parent" xml:space="preserve">
+    <value>gBox7</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEdit1.Name" xml:space="preserve">
+    <value>tbEdit1</value>
+  </data>
+  <data name="tbGWconf8.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbDHCP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbGWconf5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 93</value>
+  </data>
+  <data name="tbEdit6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnReload.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="gBox5.Text" xml:space="preserve">
+    <value>IP Config 5</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tbIPconf8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 37</value>
+  </data>
+  <data name="tbEdit3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 0</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 93</value>
+  </data>
+  <data name="tbGWconf7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 93</value>
+  </data>
+  <data name="&gt;&gt;gBox6.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="rbConfig4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 639</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 37</value>
+  </data>
+  <data name="rbConfig3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1011, 796</value>
+  </data>
+  <data name="&gt;&gt;rbConfig8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIP.Name" xml:space="preserve">
+    <value>tbIP</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbEdit7.Name" xml:space="preserve">
+    <value>tbEdit7</value>
+  </data>
+  <data name="&gt;&gt;tbEdit6.Name" xml:space="preserve">
+    <value>tbEdit6</value>
+  </data>
+  <data name="tbEdit3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 22</value>
+  </data>
+  <data name="&gt;&gt;tbEdit6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf3.Parent" xml:space="preserve">
+    <value>gBox3</value>
+  </data>
+  <data name="&gt;&gt;btnChange.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnReload.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        83/0j+tAe7TpNwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnReload.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbEdit1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;rbConfig5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbConfig3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbEdit5.Name" xml:space="preserve">
+    <value>tbEdit5</value>
+  </data>
+  <data name="&gt;&gt;cBDNS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbDNS1.Name" xml:space="preserve">
+    <value>tbDNS1</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAJzYAAAEAGAAoGwAAFgAAACgAAAAnAAAAbAAAAAEAGAAAAAAAAAAAAHgAAAB4AAAAAAAAAAAA
+        AABGSFBGSVJGSlNCRU5ARExARUw/Qkc2MzA0MzA0MzI4OUBBRl1PWIRRXZNXZaJda6tfbq1gb6tib6tf
+        baddaqRZZqBQWpVJUHhQVWpSV2FJTlU6OTo1NDU0MzMzMjI1NTZCQkY8QEg8QEs+Q01ARE8/Qk1AQ00A
+        AABISlBIS1JIS1NCRU0+QUc/Q0pCR08/P0A5OTc1NTU4OURARmNKVYlNWpFXZaJebatfbatdaqRea6Re
+        a6NcaaFZY51RWJJLUoRNU25PVWFKUVpAQUQ1MzM0MjE0MzM3NzlDQ0c6Pkc7QEo+Q00/RE4/Q05AQ00A
+        AABITFBHTVFKTlNFSU88PUI7PURESFNLUFtER04+QEg8QFJAR2pIU4ZNW5NXZqNebapebadbaKBYZZ1Z
+        ZpxZZp1XYZxTWZNKUIVHTW1IT2BJT1tER043NjY4NzY8PD5BQUVCREc6Pkc7P0o9QUw/Q05BRVBBRU8A
+        AABMUVlKT1RJTlJJTVI8PUA3OT0+Q0tJT1lITllBR1U+RF5BSXRGUoZPXplYaadcbalbaqJYZZ1VYZhW
+        YpdXY5pVYZ1TW5dKUIlDSXFDSmJIT15JT1xKT1pNUVtNUFlIS1NCQkhAQ0w9QUo9QktBRlBESVRCRlEA
+        AAB8gYhfZW1KT1VJTVM9QEM3ODw8PkVKT1pKTlpARVY8QmBBSXdIVoxRYZ5YaKVZaaNYZ5xaZpxeaaBY
+        Y5lUYJdVYJtWXpxNVI9ESXpBR2ZGS1pJT11OU19PVWBNUltHS1NCQ0lBQ0pBRE1CRU5DRk9ESFBGSFIA
+        AACnq6+LkJdiaXJPVFxCRUo5Oz85OkBJTFhJTlo9QVY5P2JBS31MW5RTY6FWZqFXZZxYZplfbKFlcKhd
+        aJ1WYJVUXZZXX5xQV5RGTIFARWpCRVhJTVxNUl9OVF9LUFpHSlFEREhFRk1HSlFHS1NGSVFGSFJKTFYA
+        AAC/wcK0uLqOlZxpbndRVV0/Qkc4Oj9ESFVHTFk5PlU3PmRET4VQX5xUYqFVY5xVY5haaJpkcaVncqdi
+        bJ9ZYpVSWpBUXJlQWZZIT4hAQ289P1lHSVhNUV5NUl5KT1hISU9GREhJSk9MT1RMUFdKTVdISlZNT1kA
+        AADAwsPAw8S9wMGbn6d0eIFRVVs+QEZARVFESlc1OlE2PmZIVI5RX6FSXp9SX5hVY5ZbaZpicKBkb51h
+        a5pZY5NRWo1OVpJPV5VJUItAQ3Y6O11ARFBNUF1NUV5KTVdISU5IR0hJSk1OUFRQUllPUVtNT1lTVF8A
+        AADBw8PBw8TBxMW+wMK0truOkplbYGk9QkxBR1M1OlE6QGtLV5RRXp9QWphRXZNUYZBZZZBeaZJeaJFb
+        ZY5XX4pRV4dLUohLVZBKUYxCRnw4OmE3N0VISldLT1pJTVZHSU5IR0lNTVBNT1ROUFhTVV5hYmuCgogA
+        AADCxMXCxMXCxMXDxcbBw8W1uLuWnKJfaHVGTFg4PVY9RXRNWZlRXJtNWJFLV4dMWIFNWX5OV3xPV3xN
+        VXtKUnpHTnlETHtJUopJUY1CSIE3O2UuLj1DRU5JTFRJTFNISk5IR0pZV1tsa2+AfoKSkJOjn6Guq60A
+        AADCxMXCxMXDxcbDxcbDxcbDxca0ubyCjZhNVmI8Q2JCSn9OWppPWpVIU4ZGUXxIUnpLVX1NVIBQV4JN
+        VYBIT3pCSHM+RW5CS3xFTodBSYM3O2kqKTs/QEhGSE5TVFlpaGl9eXmNiYmcmJeqpqS2srC/urm/vLsA
+        AADDxcbDxcbDxcbExsfExsfExse9wMOhqbBaZHFFTXNHUIlOWZhMVo1ET31HUn9OWIhUXZJbYZleZJtb
+        YphSWo5HTn9ASHI9RXBBSX1AR4A3PGwpKT48PERFRktmZGeXkZC3r6y9t7S+ubW+ura/u7a/vLnAvbwA
+        AADDxcbExsfExsfFx8jFx8jFx8jDxse7vsJveYdRXYZMV5FNWZJHUoFHU4BTYZdcaqpjbbJudLZvdLRu
+        dbNkbaxVYJ5PWo9ASXI+RXM+Q3k5Pm8sLUQ6OkJKS057eXm2rqvBuLTAubbAure/u7e/vLjAvbnCvrwA
+        AADExsbExsfFx8jFx8jFx8jFx8jGyMnExceLlqJfbJVMWJJKVYtHUnlWZJhcbapcbLJea7Vudbt6f8Fy
+        eLtha7NTYapTY6NPW4xETXY+RXI8QXAzNk88PENmY2SalJHAuLLCubXDurfCu7jBu7jAvLnBvrrCv74A
+        AADFx8jFx8jGyMjGyMnGyMnGyMnGyMnFxsiMl6VfbJdKV45KVoZRXodcbqVecbFeb7ZjcLlud7x0fL9t
+        dLpgabRVZK5XaaxVZZ5NWIVGTnhBRnE7PV1NS1OKhYO1rqrCurXAurbBu7fBu7jBvLnBvbrCv7vDwL8A
+        AADFx8jFx8jGyMnGyMnHycrHycrHyMnFxsiHk6JcaJNLV4pPXYlYaZhecaxecLJebrVkb7dtdLludLhp
+        cLVhabFZZq5Za65ZaaVVYpNPWIJIT3ZGSmx4dHmpop/CubTCu7bAu7fAu7jBvLnBvLnCvbvDv73DwcAA
+        AADFx8jFx8jGyMnGyMnHycrHycrHycrFxsiBjp9ZZo1OWopVZZJdcKZecK9cbbFdarFia7JrcLRscbRp
+        brJhaa1ZZapZaataaadcaZ9XYo9QWH5UWHuinZ++tbHEu7bDu7fAvLfBvLjBvLnCvbrCvrzDv77EwcEA
+        AADFx8jGyMjGyMnHycrHycrHycrHycrDxsd8iptYZYtQX41abJxidK5dbrFaaa9cZ7BhaLFqb7JvdLRr
+        brBgZapWX6RXYqdaaKhhbqpdaJ1VXYhfYoaxq63Eu7fFu7fDvLfBvbjBvbnCvbrCvbvDvrzDv77EwcEA
+        AADFx8jGyMnHycnHycrIysvIysvFx8m7wMJxgZVZZ45aaJlic6hkdbBdbrFZaK1XZK1bZK5haqxrca1m
+        a6ldYqRVXKBTXJ5YZqZjca9lcqteaptYYYmjoai/t7XFvLjEvLjDvbjCvbrDvrvDvrvDvr3EwL/FwsIA
+        AADFx8jGyMnHycrHycrIysvIysu/wsWhqrFoeZJZapNfb6NoeLJldbFebrBda6dhb6Vqe6l7iq98iqx1
+        gqZqdqBfaptWXZJXY59ica5peLRmdKpXY5CDhZyvqq7FvLjFvLjEvLjDvbrCvbrDvrvDvr3EwL/FwsIA
+        AADFx8jGyMnHycnIycnIysrHysu4vcGHlaBhcpBZa5hfcKhmdrNlcq5YYp5faZxndaFtfqd2gqp0gKZu
+        eaBnc5xfbJdYYIxUW5FfaqNmda9ic6xWY5RnbpGhn6jDu7fFvLjFvLjDvbnCvbrCvrvDv73EwL/FwsIA
+        AADGx8jHyMjHycnIycnIysrHycqzub1zhZRcbJBXaZpbbKZfbqxibqlUXJRcZplkcaNmc6ZmbaNma6Fi
+        Z5xeZZlaZJVYYY5TV4tcZJtfbaZba6VVYphYYYuVlaO+t7XEu7fFvLjCvbnCvbrCvrvDv73EwL/FwsIA
+        AADGx8jHyMjIyMjHycnIysrFx8ittLhoe49YaZBVZZhWZKBZZaReaqVZaKVYZahaZadgZ6RlaqFpaqBk
+        ZZxdX5hYW5VVW5RVXZhZY59bZaJZZaBXYp1WYI6Iip6xra7BubXEu7fCvLnCvbrCvrvDv73EwL/Gw8IA
+        AADGx8fGx8fHyMjHycnHycrBxManrrVkd49YaZFWZZtXZKJYYaNTXJ1ZZKlaZqtbZKRbYJlYX5ZbX5tW
+        WpRTV45TVo9SV5NXXZ1WX59ZY6VeaKtcZqlZY5dobZWFhZ+po63Eu7fCvLnCvbrCvbrDv7zFwcDGw8MA
+        AADFx8fGx8fGyMjGyMm9wcOhqbZ7iKVfb5hZaZZYZqNZZa1aY6xUW6JXYKpYYapYYKZZYKRWYKdlbbNd
+        Y6lVWp1SV5hRVpVXXqBYYKVfZ65lb7ZeaLFcZp5gZ5NtcZaLi6TBurbBvLjBvLnCvbrEv73EwcHFw8MA
+        AADFx8fFx8fFx8fFx8elrLWBjalmdaRbapdaaZlZZ6hdaLZiarljaLJaYK1WXqlWX6pWYa5XYa9mb7xd
+        ZLFTW6RQWJ5QV5laYaZiaLFnb7pocb5daLZbZqFeZ5JiaJF3eZ63sbK/urbBvLjCvbrEv77EwsLExMQA
+        AADFx8fFx8fFx8fBxMWNl6ppeKRgb6lZZ5BaaplZaKpdabpmcMFxd8FjaLVcZK9XY65UYbBWYq9ga7pY
+        YbBPWaROWJ5TW59iaLBpb7tpccFjbcBbaLhZZaFcZpFeZY9tcJukoa27t7XBvbnCvrzDwL/Ew8PExMQA
+        AADFx8fFx8fGyMi8v8GDjalebaNYaKVZZo1ZaplWZ6pXZbhfa8FteMVteMRoc75da7NRYqtVYK5ZZ7lT
+        X7BOV6NPWZ1ZY6hqcbxkbL5daLxbaLtYZ7VXZKBaZY9dZo1obpmMjKu4s7XCvbrDv77DwsHExMTExMQA
+        AADGxsbGx8fGx8i4vb6Ai6xcaqRXZKFZZ45aa5xXaatVZrZXZ7tabL1cbMBhb8FdarxRYLNMWK1QYLZN
+        WaxMVaNQWaNWYaxcZ7Zdabhda7hebrlcbLZcaqZcZ5FaYohdY491dqe0r7XDvrvDwL/Ew8LExMTExMQA
+        AADGx8fGx8fGxsess7Z5hK1caKdYZJ1XZY5dbqBeb61cbLJbabJcabJea7Rfa7daaLZRYbJLWa9PYLRN
+        W6pNV6RRWqRYYahdZ65faa5gaq1fa6pgbKhfaqBcZY1VXH1UV39pZqCyrbXDv77DwsHEw8PExMTExMQA
+        AADFx8fGx8fFxsaiq7B0f65aZaZWYZZUYIheb55ebqdcaqhcZ6hfaalgaqldZ6pZZKtUYqtMXKtRY7RR
+        YKxQW6JRWZ1XYJ9cZKNfZZ5dYpdYX5RWX5NeZ5hcZIpQVnRLTm5mZJWyr7bDwcDDwsLEw8PExMTExMQA
+        AADFxsbFx8fExcaeqK5we6tVX51OWIZQW4BfbZpda6BXY5xUXpZaX5FaXY9ZXZdYX51WYZ9QXqNaa7Zb
+        arJWYKJRWJNXXZVYXpdaXItYWYRTV4ZSWYxbYZBaYoVNU25IS2RwcIy1srfDwsHDwsLDw8PExMTExMQA
+        AADGxsbFxsbExcaiq7FyfKROVolCSW5LVXdfa5dga59VYJVLUoBPTmxNR2hTUYFWWJFWWpRXYJ5qeLxr
+        eLxeaKdSV5BYWY9VV4tWVYFYWINbYJBfZp1VXIdWXX5NUmxNUGKDg4m4trbDwsHDw8PDw8PExMTExMQA
+        AADGxsbFx8fGx8i3vL2EjaNTXHo7QlxFT29bZo9bZpdbZ59jb6ptdbBnbKZfYptYXZVZX5llbKtwe7pw
+        e7pnca5bYpxVWY9YWpBjZZtobKJiaZ9WXZNQVYFRVntLUGxPUmN+fYO3tbbEwsLEw8PExMTExMTFxcUA
+        AADGxsbFx8fFx8fCxMSXn6hia3s+RVpFTmxYZI1XY5VWYphaZ51ga6JaYpZUWo9XXpRjbKZzfLp1fbx1
+        fb1xerlpcq5eZZ9UWY9VWotWW4xTWotPVolQWYNOVHlITWlSVGWCgoi4trbEwsLEw8PExMTExMTFxcUA
+        AADGxsbFxsbFx8fFx8ehqKxsdYBDSlxETmlUYotWZJZVY5lWY5lYZptYY5ldZ59ocaxzfbp5hMN2fsF0
+        fsJ1gMJ1f75sdrReaKRZYptUXpRQWo5NV4tSXIpNVHpITGdSVGSAgYa3tbbEwsLEw8PExMTFxcXFxcUA
+        AADGxsXGxsbFx8fFx8ekrK9ye4RHTl9DTGZRXodWZZlXZ6BYZ6Jba6Vgb6xterp3hMV7h8h2gsVxfcJw
+        fcRygMZ1g8Z0gMNqd7tjcLNbaalUYZ1PW5NSXpBOVX1HSmZNUF94eX+1tLXDwsLEw8PExMTFxcXFxcUA
+        AADGxsXGxsbGxsbExsanr7F3gYlLU2NCSmJOWoRVY5lZaaZcba5idLZoebtuf8JzgsZygsZtfcNpecBq
+        esFqe8Nqe8NtfMJldLxfbrRaaKxVYqJRXphRXZJOVX5ESGNGSFdxcnizsrTDwsLEw8PExMTFxcXFxcUA
+        AADFxcXFxcXGxsbExsassrR7g4xLU2NDSmJMWoJTYphXZ6ZYa61bb7Vecbhhc7xkdsBnecFqer9tfcBt
+        fcFtfcFrfMBldLxdbbVVZa1RYKVQXp9NW5lOW5NMVX9CR2JERlRwc3mytLXDw8PExMTExMTFxcXFxcUA
+        AADFxcXFxcXGxsbFxsavtLV+ho5NVWVCSV9OW4NUY5lVZqVWaa1abLRbbbdeb7pjdL1ner9qfL9rfL9s
+        fsFsfcFneL1ebbVYaLBSYqtPXqVOW55NWplOW5RIUXs+QltDRlF5eoC1tbbDw8PExMTExMTFxcXExMQA
+        AADFxcXFxcXFxcXFxcWrsLJ6g4pKUmE9QlZMV39SYZdTZaRVaKtaa7NbbLdeb7pjdb1ner9ofL5pe75q
+        fMFoesFic7tZabFVZKxRYKhOXKNNWZxNWpZNWo9CSW45O09ERk5+f4S2trfDw8PExMTExMTExMTExMQA
+        AADFxcXFxcXFxcXExcWpr7F4gYhHT103O0tFTnFOXI5SZKBUZ6hYaq9ZbLZdcLphdL1leb9me75meb5m
+        eL9jdL1cbrdVZ65TYqpPXqZNW6BLWJhJVY5FT3s5PVg0NUNISFCDhYm3uLjDw8PDw8PExMTExMTExMQA
+        AADExMTExcTFxcXExcWzuLmEjJNMVGI2OUc7QVtHVH9PYZhSZqNUaKlWarJabbdecbphdbxle75idLxg
+        crtdb7dYabFTZqxSYqhPXqRMW51JVpBAS30zOFQtLjwyMjtOTliSlJa6u7vDw8PDw8PExMTExMTExcUA
+        AADExMPExcPFxcTExcW/wcGZoKRha3U9QU84PU4/SGhJWIZRZJtSZaNSZqhVaKxYa69cb7NecrZidLlh
+        dLldcLZZa7FUZqxSYKVNXJ5IVZJCSn45P2MsLDorKjE2Nj1dXmW3uLjBwsHExMTExMTExMTExcXExsYA
+        AADDxMLExMPExcTExMTDw8OytreMk5dPV2I7QE80OEw5QGBFUX5PXpRRY5xSZKFUZqVYaahabapfcK5f
+        b61dbatZaaZSX5xOWpZJVY0/SHczOFgsLj4pKTAwMDVWV1uRkpXBwsLDxMPExMTFxcXFxcXExsbExsYA
+        AADDxMLDxMLDxcPDxcPExMTAwcGpra9weYBFS1YzNUEvMkI2O1VCSnFHU4BJV4hLWY1NW49QXpFQXJBP
+        Wo1NWIhJU4FCSXVBSHE7QmczNlIqKzspKjEzMzdZWluLjIy2t7fFxcXFxcXFxcXFxsbFxsbExsbExsYA
+        AADDxMLDxMLDxcPDxcPExcTExMS4uruUnJ5WXWU6PkUuMTctLzkzNUs5Pls8Q2U9RWo+Rm1CSXA9Q2k6
+        QGQ4Pl00OVQwMkkxM0cuL0ApKjYqKjA3Nz5aWl2Rk5G4ubfGxsbHx8bHx8bGx8fGx8fGx8fFx8fFx8cA
+        AADDxMPDxMPCxMPCxMTExcTExcS+wMCssrNye4BMUlc5PUIyNDwtLzcvMT8vMkQvMkcxNEo1Nk0vMUYt
+        L0ItLz4rLDgmJy0nJyspKS8sLTM5Oj5YWV6foJ+9v73HyMfIyMjIyMjIyMjHyMjHyMjHyMjGyMjGyMgA
+        AADDxMLDxMPDxcPDxcTExcPExcPCxMO/wsCxtbSJkJNfZWxAQ004OkQ2OEYxMj4vLzouLzosKzUsKzUu
+        LzkvMDosLTUkJSgqLDAyMzlFRkxnaWuYmZm5ubnFxcXJycjJycnJycnJycnIycnIycnIycnIycnIyckA
+        AADDxMLDxMLExcPExcPExcTFxsTExcTDxcO/wsCrsK+LkZRmbHNKTlpAQ1Q4O0czND0xMToyMjsyMjwz
+        ND80NkI3OUM/QEVvcHGKi4ybnZ6qrKy6u7rExcTIycjKysnKysnKysrKysrJycnJycnJycnJycnJyckA
+        AADDxMLDxMLExcPExcPExcPFxsTFxsTExsTCxcO7v72qr6+OlJdrcnlVW2VNUVlNUFdQU1pMUFhJTVZJ
+        TVhKTlpUVmBwcnSdnZ23uLfExMTHyMfHyMfIycjJysnKysnKysnKysrKysrJycnJycnJycnJycnJyckA
+        AADCw8HDxMLDxMLExcPExcPExcPFxsTFxsTExsTCxMO9v76vs7OWnZ59hYZ3e357f4N/hYh3fIB5f4N5
+        f4V6foaDhouipKS1trXCw8LIycjJysnJysjJysnKysnKysnKy8nKysrKysrJycnJycnJysrJycnIyMgA
+        AADBwsDCw8HDxMLDxMLExcPExcPExcPFxsTGx8XGx8XGx8XFxsTBw8G2urixtbSvs7Ksr7Cnp6e5vLu9
+        wL67vry7vbvCwsDIycfJysjJysjJysjJysnKysrJycnJycnKysrJysnKysnJycnIycnIysrJycnIyMgA
+        AADBwsDCw8HCw8HDxMLExcPExcPExcPExcPFxsTFxsTFxsTGx8XFx8XDxcTDxcPDxcPDxMPDw8PFx8XG
+        yMbHyMbHyMfIycfJysjJysjJysjJysjJysjKysnKysnKysnKysrJysnKysnJysnJysnJycnJysjIyMgA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="&gt;&gt;gBox4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="gBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;gBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tbDNS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="&gt;&gt;gBox7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tbIPconf5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf7.Name" xml:space="preserve">
+    <value>tbGWconf7</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="gBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="cbNetworkCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 13</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="&gt;&gt;rbConfig2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf3.Name" xml:space="preserve">
+    <value>tbGWconf3</value>
+  </data>
+  <data name="&gt;&gt;gBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbIPconf7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbIPconf7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 37</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="gBDNS.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbSNconf5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 65</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf5.Name" xml:space="preserve">
+    <value>tbIPconf5</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tbSNconf6.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 17</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 37</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf1.Name" xml:space="preserve">
+    <value>tbIPconf1</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf8.Name" xml:space="preserve">
+    <value>tbGWconf8</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 65</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;rbConfig6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbConfig1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="tbSNconf7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 65</value>
+  </data>
+  <data name="&gt;&gt;tbEdit2.Name" xml:space="preserve">
+    <value>tbEdit2</value>
+  </data>
+  <data name="tbGWconf4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 93</value>
+  </data>
+  <data name="rbConfig3.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 93</value>
+  </data>
+  <data name="&gt;&gt;gBox7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbEdit7.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;rbConfig8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbNetworkCard.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf3.Parent" xml:space="preserve">
+    <value>gBox3</value>
+  </data>
+  <data name="rbConfig4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf3.Parent" xml:space="preserve">
+    <value>gBox3</value>
+  </data>
+  <data name="&gt;&gt;tbDNS1.Parent" xml:space="preserve">
+    <value>gBDNS</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbGWconf6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf5.Parent" xml:space="preserve">
+    <value>gBox5</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>gBox2</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>SN</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbConfig5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="tbIPconf6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbIPconf6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 37</value>
+  </data>
+  <data name="tbSNconf5.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;btnReload.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;gBox2.Name" xml:space="preserve">
+    <value>gBox2</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 21</value>
+  </data>
+  <data name="&gt;&gt;gBDNS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbConfig6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 93</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 65</value>
+  </data>
+  <data name="&gt;&gt;rbConfig4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tbIPconf5.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf2.Parent" xml:space="preserve">
+    <value>gBox2</value>
+  </data>
+  <data name="&gt;&gt;cBDNS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbIPconf2.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;gBDNS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbConfig8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="gBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 639</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbEdit4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 0</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbIPconf8.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="tbEdit5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnReload.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="tbIPconf8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="label19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf6.Name" xml:space="preserve">
+    <value>tbSNconf6</value>
+  </data>
+  <data name="&gt;&gt;gBox6.Name" xml:space="preserve">
+    <value>gBox6</value>
+  </data>
+  <data name="label25.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tbIPconf4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf2.Name" xml:space="preserve">
+    <value>tbSNconf2</value>
+  </data>
+  <data name="&gt;&gt;gBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 22</value>
+  </data>
+  <data name="gBox2.Text" xml:space="preserve">
+    <value>IP Config 2</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>gBox3</value>
+  </data>
+  <data name="btnReload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 33</value>
+  </data>
+  <data name="rbConfig1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbEdit6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 22</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 65</value>
+  </data>
+  <data name="tbEdit8.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;tbDNS2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbGWconf2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 93</value>
+  </data>
+  <data name="gBox3.Text" xml:space="preserve">
+    <value>IP Config 3</value>
+  </data>
+  <data name="&gt;&gt;gBox1.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;tbGWconf5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbConfig7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbIP.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="tbEdit4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 22</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SwIP - Switch IP Tool</value>
+  </data>
+  <data name="cBDNS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
+  </data>
+  <data name="rbConfig6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="&gt;&gt;tbDNS1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 93</value>
+  </data>
+  <data name="&gt;&gt;tbDNS2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbConfig8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;rbConfig7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;rbConfig7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>GW</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbDNS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbConfig2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 328</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>GW</value>
+  </data>
+  <data name="tbIPconf4.MaxLength" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="gBox1.Text" xml:space="preserve">
+    <value>IP Config 1</value>
+  </data>
+  <data name="&gt;&gt;gBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>GW</value>
+  </data>
+  <data name="&gt;&gt;tbIPconf8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gBox8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gBox8.Text" xml:space="preserve">
+    <value>IP Config 8</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEdit8.Name" xml:space="preserve">
+    <value>tbEdit8</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 33</value>
+  </data>
+  <data name="rbConfig5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gBox6.Text" xml:space="preserve">
+    <value>IP Config 6</value>
+  </data>
+  <data name="&gt;&gt;tbSNconf8.Name" xml:space="preserve">
+    <value>tbSNconf8</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>de-AT</value>
+  </metadata>
+</root>

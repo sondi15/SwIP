@@ -1,0 +1,11 @@
+C:\Users\sonderst\source\repos\PIT\PIT\bin\Debug\PIT.exe.config
+C:\Users\sonderst\source\repos\PIT\PIT\bin\Debug\PIT.exe
+C:\Users\sonderst\source\repos\PIT\PIT\bin\Debug\PIT.pdb
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\PIT.csprojResolveAssemblyReference.cache
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\PIT.Form1.resources
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\PIT.Properties.Resources.resources
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\PIT.csproj.GenerateResource.Cache
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\PIT.csproj.CoreCompileInputs.cache
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\PIT.exe
+C:\Users\sonderst\source\repos\PIT\PIT\obj\Debug\PIT.pdb
+C:\Users\sonderst\source\repos\PIT\PIT\bin\Debug\config.xml
